@@ -1,0 +1,13 @@
+.centerDiv {
+    background-color: #d6dacc;
+    width: 100%;
+    color: #333333;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+    overflow: scroll;
+  }

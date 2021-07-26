@@ -1,4 +1,5 @@
-<div>
+<div [ngClass]="'centerDiv'">
+  <p class="alert alert-success" *ngIf="failed == true">Password or UserName invalid!</p>
     <form #myForm="ngForm" (ngSubmit)="onSubmit()">
       <label>
         Username:
